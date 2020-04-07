@@ -1,18 +1,18 @@
 /* eslint-disable nuxt/no-globals-in-created */
 <template>
   <div class="container-corona">
-    <img class="image-corona" src="@/assets/covid-19-image-boite-personne.svg" alt="">
+    <!-- <img class="image-corona" src="@/assets/covid-19-image-boite-personne.svg" alt=""> -->
     <vue-typed-js
       :strings="items"
       :loop="true"
       :type-speed="200"
       :back-speed="100"
     >
-      <h1>
+      <h3>
         Merci <span class="typing" /> <br> d'avoir contribué à aider <transition name="slide" mode="out-in">
           <span v-if="currentNum % 2 === 0" key="x">{{ currentNum }}</span> <span v-else key="y">{{ currentNum }}</span>
         </transition> héros de la santé.
-      </h1>
+      </h3>
     </vue-typed-js>
   </div>
 </template>
