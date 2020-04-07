@@ -8,7 +8,7 @@
       :back-speed="100"
     >
       <h1>
-        Thanks <span class="typing" /> <br> d'avoir contribué à aider <transition name="slide" mode="out-in">
+        Merci <span class="typing" /> <br> d'avoir contribué à aider <transition name="slide" mode="out-in">
           <span v-if="currentNum % 2 === 0" key="x">{{ currentNum }}</span> <span v-else key="y">{{ currentNum }}</span>
         </transition> héros de la santé.
       </h1>
