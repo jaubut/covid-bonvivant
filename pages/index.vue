@@ -1,6 +1,7 @@
 /* eslint-disable nuxt/no-globals-in-created */
 <template>
   <div class="container-corona">
+    <img class="image-corona" src="@/assets/covid-19-image-boite-personne.svg" alt="">
     <vue-typed-js
       :strings="items"
       :loop="true"
@@ -60,12 +61,17 @@ export default {
 .container-corona {
   display: flex;
   flex-flow: column wrap;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background: #F4FBF2;
   justify-content: center;
   align-content: center;
   text-align: center;
+}
+.image-corona {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 4rem;
 }
 .slide-enter {
   top: 10px;
