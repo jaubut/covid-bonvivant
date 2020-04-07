@@ -40,15 +40,13 @@ export default {
   },
   data () {
     return {
-      items: [],
-      number: 5,
       currentNum: 0,
       interval: null
     }
   },
   mounted () {
     this.interval = setInterval(() => {
-      if (this.number > this.currentNum) {
+      if (this.items.length > this.currentNum) {
         this.currentNum++
       } else {
         return this.currentNum === 0
