@@ -1,6 +1,6 @@
 /* eslint-disable nuxt/no-globals-in-created */
 <template>
-  <div class="container">
+  <div class="container-corona">
     <vue-typed-js
       :strings="items"
       :loop="true"
@@ -59,11 +59,12 @@ export default {
 </script>
 
 <style>
-.container {
+.container-corona {
   display: flex;
   flex-flow: column wrap;
   height: 100vh;
   width: 100vw;
+  background: #F4FBF2;
   justify-content: center;
   align-content: center;
   text-align: center;
