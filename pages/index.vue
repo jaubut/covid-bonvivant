@@ -61,10 +61,10 @@ export default {
 .container-corona {
   display: flex;
   flex-flow: column wrap;
-  min-height: 100vh;
+  height: 100%;
   width: 100vw;
   background: #F4FBF2;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   text-align: center;
 }
