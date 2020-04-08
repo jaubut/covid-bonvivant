@@ -35,6 +35,10 @@ export default {
           items: res.data.records.map((i) => {
             i.people = i.fields.Name
             return i.people
+          }),
+          numbers: res.data.records.map((n) => {
+            n.barre = n.fields.barres
+            return n.barre
           })
         }
       })
@@ -47,7 +51,7 @@ export default {
   },
   mounted () {
     this.interval = setInterval(() => {
-      if (this.items.length > this.currentNum) {
+      if (this.numbers.reduce((a, b) => a + b, 0) > this.currentNum) {
         this.currentNum++
       } else {
         return this.currentNum === 0
