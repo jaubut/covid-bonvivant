@@ -56,7 +56,7 @@ export default {
       } else {
         return this.currentNum === 0
       }
-    }, 1000)
+    }, 750)
   }
 }
 </script>
