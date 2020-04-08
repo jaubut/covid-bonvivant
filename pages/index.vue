@@ -8,7 +8,7 @@
       :type-speed="200"
       :back-speed="100"
     >
-      <h3>
+      <h3 style="margin:auto;">
         Merci <span class="typing" /> <br> d'avoir contribué à aider <transition name="slide" mode="out-in">
           <span v-if="currentNum % 2 === 0" key="x">{{ currentNum }}</span> <span v-else key="y">{{ currentNum }}</span>
         </transition> héros de la santé.
