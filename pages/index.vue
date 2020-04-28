@@ -10,7 +10,7 @@
     >
       <h3 style="margin:auto;">
         Merci <span class="typing" /> <br> d'avoir contribué à aider <transition name="slide" mode="out-in">
-          <span v-if="currentNum % 2 === 0" key="x">{{ currentNum }}</span> <span v-else key="y">{{ currentNum }}</span>
+          <span>{{ numbers }}</span>
         </transition> héros de la santé.
       </h3>
     </vue-typed-js>
@@ -42,21 +42,6 @@ export default {
           })
         }
       })
-  },
-  data () {
-    return {
-      currentNum: 0,
-      interval: null
-    }
-  },
-  mounted () {
-    this.interval = setInterval(() => {
-      if (this.numbers.reduce((a, b) => a + b, 0) > this.currentNum) {
-        this.currentNum++
-      } else {
-        return this.currentNum === 0
-      }
-    }, 250)
   }
 }
 </script>
