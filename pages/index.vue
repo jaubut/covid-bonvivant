@@ -10,7 +10,7 @@
     >
       <h3 style="margin:auto;">
         Merci <span class="typing" /> <br> d'avoir contribué à aider <transition name="slide" mode="out-in">
-          <span>{{ numbers }}</span>
+          <span>{{ total }}</span>
         </transition> héros de la santé.
       </h3>
     </vue-typed-js>
@@ -42,6 +42,13 @@ export default {
           })
         }
       })
+  },
+  computed: {
+    total () {
+      return this.numbers.reduce(function (a, b) {
+        return a + b
+      }, 0)
+    }
   }
 }
 </script>
