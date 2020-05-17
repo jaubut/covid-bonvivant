@@ -54,7 +54,7 @@ export default {
 </script>
 
 <style>
-html {
+body {
   background: #F4FBF2;
 }
 .container-corona {
