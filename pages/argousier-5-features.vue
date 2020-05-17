@@ -17,7 +17,7 @@ const data = [
   {
     img: 'fas fa-blender',
     title: 'Pressé à froid',
-    description: "Notre élixir d'argousier est pressé à froid pour garder son intégrité et son efficacité puissante."
+    description: "Notre élixir d'argousier est pressé à froid pour garder son intégrité et sa puissante efficacité."
   },
   {
     img: 'fas fa-tree',
