@@ -1,12 +1,12 @@
 <template>
   <div class="flex-container">
     <div>
-      <h3>3x</h3>
-      <p>Trois fois plus d'antioxydants que la canneberge.</p>
+      <h3>3x <i class="fas fa-atom" /></h3>
+      <p>3x plus d’antioxydants que la canneberge. L’argousier est le petit fruit qui en contient le plus.</p>
     </div>
     <div>
       <h3>103%</h3>
-      <p>de la valeur recommandé en vitamine C.</p>
+      <p>103% de la valeur journalière recommandé en Vitamine C, dans chaque dose de 30 ml.</p>
     </div>
     <div>
       <h3>Ω-7</h3>

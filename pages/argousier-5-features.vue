@@ -22,22 +22,22 @@ const data = [
   {
     img: 'fas fa-tree',
     title: 'De la ferme',
-    description: "Notre plantation d'argousier est soigneusement entretenue pour vous offrir le meilleur produit, de la ferme à votre table."
+    description: 'Notre plantation est biologique. Pour vous offrir le meilleur produit, de la ferme à la table.'
   },
   {
     img: 'far fa-smile-beam',
-    title: 'Goût puissant',
-    description: "À chaque dose vous recentez toute la puissance contenue dans l'argousier."
+    title: 'Goût riche',
+    description: 'Par sa concentration en flavonoïdes (et en antioxydants), l’argousier possède une couleur vive et un goût acidulé puissant!'
   },
   {
     img: 'fas fa-hand-holding',
-    title: 'Cueillit à la main',
-    description: 'Chaque récolte est soigneusement opérer par notre équipe, à la main.'
+    title: 'Cueilli à la main',
+    description: 'Nos fruits sont soigneusement récolté à la main par notre équipe.'
   },
   {
     img: 'far fa-thumbs-up',
     title: "Rien d'autres",
-    description: "Aucun ajout, ni agent de conservation. Le fruit de l'argousier, rien d'autres."
+    description: 'Aucun ajout ni agent de conservation. Le fruit d’argousier pur, et rien d’autres.'
   }
 ]
 export default {

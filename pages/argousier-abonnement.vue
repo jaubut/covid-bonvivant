@@ -20,15 +20,15 @@ const data = [
   {
     number: '1.',
     image: 'fas fa-glass-whiskey',
-    title: 'Choisi ta fréquence',
-    description: "On te suggère de recevoir ton élixir format 1L chaque mois pour combattre efficacement les RADs chaque jour. Mais tu peux choisir d'en recevoir qu'au 3 mois ou à toute les 2 semaines. Et tu peux en commander plus pour toute la famille !",
+    title: 'Choisir sa fréquence',
+    description: 'Le format 1L est suggéré pour avoir votre dose quotidienne, pendant tout le mois! Vous pouvez faire un achat unique ou profiter d’un abonnement mensuel, qui peut être cancellé à tout moment, sans tracas :)',
     color: 'orange'
   },
   {
     number: '2.',
     image: 'fas fa-truck',
     title: 'Livraison rapide',
-    description: "Ton élixir est expédié 3-5 jours après que tu es placé ta commande et arrive frais chez toi. Ensuite on s'occupe de t'envoyer tes prochaines commandes à la fréquence que tu as choisis. Voilà !",
+    description: 'L’élixir est livré dans un délais d’environ 5 jours après que la commande soit passée, puis de façon automatique pour les prochains mois!',
     color: 'white'
   },
   {
