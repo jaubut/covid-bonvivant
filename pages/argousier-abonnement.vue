@@ -35,14 +35,14 @@ const data = [
     number: '3.',
     image: 'far fa-clock',
     title: 'Dose quotidienne',
-    description: "Pour des bienfaits optimals, nous recommandons 125 ml d'élixir chaque jour.",
+    description: "Pour des bienfaits optimals, nous recommandons 125 ml d'élixir, chaque jour.",
     color: 'white'
   },
   {
     number: '4.',
     image: 'far fa-calendar-alt',
     title: 'Gère ton abonnement',
-    description: "Que ce soit pour mettre en pause ton abonnement, canceler, gérer tes options de paiements. Tu n'as qu'à te connecter à ton compte.",
+    description: "Si tu as besoin de mettre en pause ton abonnement, canceler, gérer tes options de paiements, tu n'as qu'à te connecter à ton compte.",
     color: 'orange'
   }
 ]
